@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* navbar */
+
 #navigation
 {
     height: 100vh;
@@ -64,3 +66,5 @@
 a{
     text-decoration: none;
 }
+
+/* ********** */
