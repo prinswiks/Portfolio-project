@@ -118,14 +118,15 @@
 }
 
 .project-section {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
   margin-top: 4rem;
 }
 
 .page-header {
   color: var(--bgOrange);
   font-size: 90px;
-  text-align: center;
+  text-align: left;
+  margin-left: 7rem;
   padding-top: 30px;
 }
 
@@ -306,7 +307,7 @@
   }
 
   .project-section {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
     margin-top: 1rem;
     width: 100%;
   }
@@ -344,6 +345,10 @@
     top: 0;
     font-size: small;
   }
+  .page-header {
+    margin-left: 0rem;
+    padding-top: 30px;
+  }
 .center{
   margin: 0;
   padding: 0;
@@ -353,9 +358,6 @@
     height: 400px;
   }
 
-  .project-content-left {
-    left: 0;
-  }
 
   .project-heading {
     font-size: 40px;
@@ -365,7 +367,19 @@
   .project-sub-heading {
     width: 100%;
   }
-
+.project-subHeading{
+  margin: 0;
+  width: 100%;
+  padding-bottom: 3px;
+  margin-bottom: 1rem;
+}
+.project-skills-container{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.project-content{
+  padding: 0;
+}
   .project-skill-container {
     width: 100%;
   }
