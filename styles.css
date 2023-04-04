@@ -27,9 +27,10 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    margin: 4rem auto;
-    padding: 0 1rem;
+    padding: 3rem;
     padding-bottom: 8rem;
+    background-color: rgba(128, 128, 128, 0.175);
+    height: 40rem;
 }
 
 
@@ -51,6 +52,7 @@
 .role{
     color: #4e45d5;
     font-weight: 800;
+    font-size: 1.9rem;
 }
 
 .hero-section-sub-heading{
@@ -269,6 +271,23 @@
   }
 
   @media (max-width:1300px) {
+    .hero-section-left{
+      margin-left: 0;
+    }
+    .hero-section-sub-heading{
+      height: 8rem;
+      width:20rem;
+    }
+    .hero-section-description{
+      margin-top: 0%;
+      padding: 0;
+      width: 20rem;
+      text-align: justify;
+    }
+    .hero-section{
+      margin-bottom: 0;
+      row-gap: 0rem;
+    }
     .project-section{
         background-color: rgb(231,231,231);
         margin-top:1rem;
