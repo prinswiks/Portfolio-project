@@ -345,17 +345,16 @@
     top: 0;
     font-size: small;
   }
+
   .page-header {
     margin-left: 0rem;
     padding-top: 30px;
   }
-.center{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-  .project-content .project-content-left {
-    height: 400px;
+
+  .center {
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
 
@@ -367,19 +366,23 @@
   .project-sub-heading {
     width: 100%;
   }
-.project-subHeading{
-  margin: 0;
-  width: 100%;
-  padding-bottom: 3px;
-  margin-bottom: 1rem;
-}
-.project-skills-container{
-  width: 100%;
-  margin-bottom: 1rem;
-}
-.project-content{
-  padding: 0;
-}
+
+  .project-subHeading {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 3px;
+    margin-bottom: 1rem;
+  }
+
+  .project-skills-container {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .project-content {
+    padding: 0;
+  }
+
   .project-skill-container {
     width: 100%;
   }
