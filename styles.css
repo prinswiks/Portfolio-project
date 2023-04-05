@@ -791,7 +791,10 @@ p:last-child {
   background: #3e3e3e;
   border-radius: 15px;
 }
-
+#hi{
+  color: inherit;
+  text-decoration-line: none;
+}
 .screen:after {
   content: '';
   display: block;
